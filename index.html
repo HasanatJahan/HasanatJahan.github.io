@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Hasanat Jahan</title>
+	<meta name="description"
+		content="Hasanat Jahan builds software and makes art. Engineering portfolio and painting portfolio, in one place.">
+	<link rel="canonical" href="https://hasanatjahan.github.io/">
+
+	<!-- The reason this page exists. Google resolves one favicon per hostname from
+	     the host's home page, so the icon declared here is what Search shows for
+	     hasanatjahan.github.io and every subdirectory under it, /Portfolio/ included.
+	     ICO and PNG first: Google Search does not read SVG favicons. Rasters come
+	     from Images/favicon.svg via tools/build-favicons.py. -->
+	<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+	<link rel="icon" href="Images/icon-192.png" sizes="192x192" type="image/png">
+	<link rel="icon" href="Images/favicon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="Images/apple-touch-icon.png">
+
+	<meta property="og:type" content="profile">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:url" content="https://hasanatjahan.github.io/">
+	<meta property="og:site_name" content="Hasanat Jahan">
+	<meta property="og:title" content="Hasanat Jahan">
+	<meta property="og:description"
+		content="Hasanat Jahan builds software and makes art. Engineering portfolio and painting portfolio, in one place.">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Person",
+	  "@id": "https://hasanatjahan.github.io/#person",
+	  "name": "Hasanat Jahan",
+	  "url": "https://hasanatjahan.github.io/",
+	  "jobTitle": "Full-Stack Software Engineer",
+	  "sameAs": [
+	    "https://hasanatjahan.com",
+	    "https://hasanatjahan.github.io/Portfolio/",
+	    "https://www.linkedin.com/in/hasanat-jahan-22a12b124/",
+	    "https://github.com/HasanatJahan"
+	  ]
+	}
+	</script>
+
+	<style>
+		:root {
+			--bg: #FAF8F3;
+			--text-primary: #1E1C19;
+			--text-secondary: #57514A;
+			--text-muted: #948C7E;
+			--divider: #D9D2C2;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			background: var(--bg);
+			color: var(--text-secondary);
+			font-family: 'Inconsolata', ui-monospace, SFMono-Regular, Menlo, monospace;
+			font-size: 17px;
+			line-height: 1.6;
+			margin: 0;
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+		}
+
+		main {
+			max-width: 640px;
+			margin: 0 auto;
+			padding: 4em 1.5em;
+			width: 100%;
+		}
+
+		h1 {
+			color: var(--text-primary);
+			font-size: 2.4em;
+			font-weight: normal;
+			line-height: 1.2;
+			margin: 0;
+		}
+
+		.tagline {
+			color: var(--text-muted);
+			margin: 0.4em 0 2.5em;
+		}
+
+		.links {
+			border-top: 1px solid var(--divider);
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		.links li {
+			border-bottom: 1px solid var(--divider);
+		}
+
+		.links a {
+			color: var(--text-primary);
+			display: block;
+			padding: 1.1em 0;
+			text-decoration: none;
+		}
+
+		.links a:hover .label {
+			color: var(--text-muted);
+		}
+
+		.label {
+			display: block;
+		}
+
+		.label::after {
+			content: " \2192";
+			color: var(--text-muted);
+		}
+
+		.note {
+			color: var(--text-muted);
+			display: block;
+			font-size: 0.9em;
+		}
+
+		.contact {
+			font-size: 0.95em;
+			margin-top: 2.5em;
+		}
+
+		.contact a {
+			color: var(--text-primary);
+			margin-right: 1.5em;
+			text-underline-offset: 3px;
+		}
+
+		@media (max-width: 640px) {
+			body {
+				font-size: 16px;
+			}
+
+			h1 {
+				font-size: 2em;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<main>
+		<h1>Hasanat Jahan</h1>
+		<p class="tagline">Software engineer. Sometimes a painter.</p>
+
+		<ul class="links">
+			<li>
+				<a href="/Portfolio/">
+					<span class="label">Engineering portfolio</span>
+					<span class="note">Distributed systems, automation, and machine learning. Experience,
+						skills, and projects.</span>
+				</a>
+			</li>
+			<li>
+				<a href="https://hasanatjahan.com">
+					<span class="label">Art portfolio</span>
+					<span class="note">Paintings, drawings, and sketchbook work at hasanatjahan.com.</span>
+				</a>
+			</li>
+		</ul>
+
+		<p class="contact">
+			<a href="https://github.com/HasanatJahan" rel="noopener">GitHub</a>
+			<a href="https://www.linkedin.com/in/hasanat-jahan-22a12b124/" rel="noopener">LinkedIn</a>
+			<a href="mailto:jahanhasanat@gmail.com">Email</a>
+		</p>
+	</main>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+# Crawlers only honour robots.txt at the host root, so this file governs
+# hasanatjahan.github.io and every subdirectory, /Portfolio/ included.
+User-agent: *
+Allow: /
+
+Sitemap: https://hasanatjahan.github.io/sitemap.xml
+Sitemap: https://hasanatjahan.github.io/Portfolio/sitemap.xml
